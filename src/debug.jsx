@@ -11,7 +11,7 @@ function Debug() {
             const userId = tg.initDataUnsafe?.user?.id;
             newLog += `3. User ID из Telegram: ${userId}\n`;
             // Простейший запрос к вашему API
-            fetch('https://ВАШ_RAILWAY_DOMAIN/api/user-data', {
+            fetch('https://happyfarms-production.up.railway.app', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ userId: userId })
