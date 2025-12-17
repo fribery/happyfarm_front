@@ -20,7 +20,7 @@ function App() {
       // tg.initData — специальная строка от Telegram для проверки подлинности
       const initData = tg.initData;
       // tg.initDataUnsafe.user — непроверенные данные, можно использовать для ID
-      const telegramUserId = tg.initDataUnsafe?.user?.id;
+      const telegramUserId = 22430;
 
       if (!telegramUserId) {
         throw new Error('Не удалось получить ID пользователя из Telegram');
