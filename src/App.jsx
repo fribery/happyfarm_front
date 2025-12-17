@@ -1,4 +1,4 @@
-// ВЕСЬ КОД В ФАЙЛЕ src/App.jsx
+import React, {useState, useEffect } from 'react'
 console.log('🟢 Файл App.jsx загружен и исполняется!');
 
 function App() {
