@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import debug from './debug'; // Импорт вашего основного компонента
+import App from './app21'; // Импорт вашего основного компонента
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
