@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import App from './App'; // Импорт вашего основного компонента
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+root.render(
+  <React.StrictMode>
+    <App /> {/* Рендерим ваш App.jsx */}
+  </React.StrictMode>
+);
